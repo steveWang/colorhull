@@ -1,0 +1,33 @@
+.key {
+    display: block;
+    width: 720px;
+    height: 50px;
+    background: linear-gradient(90deg in hsl longer hue, red, red);
+}
+
+.block {
+    display: block;
+    width: 720px;
+    height: 720px;
+}
+
+.b {
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.fade {
+    background: white;
+    opacity: 0.8;
+}
+
+#indicator {
+    position: relative;
+    left: 180px;
+    width: 0px;
+    height: 48px;
+    z-index: 99;
+    border-left: 1px solid red;
+}
+
